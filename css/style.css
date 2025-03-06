@@ -551,12 +551,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-
 .mt-14 {
   margin-top: 3.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
 }
 
 .mt-28 {
@@ -918,6 +918,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .ficon:hover {
   filter: invert(80%) sepia(37%) saturate(7048%) hue-rotate(132deg)
     brightness(105%) contrast(104%);
+}
+
+.dark .dark\:bg-curvy-dark-mode {
+  background-image: url('../images/bg-curvy-dark-mode.svg');
 }
 
 .hover\:scale-95:hover {
