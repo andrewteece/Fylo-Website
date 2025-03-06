@@ -639,6 +639,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-image: url('/images/bg-curvy-light-mode.svg');
 }
 
+.bg-contain {
+  background-size: contain;
+}
+
 .bg-bottom {
   background-position: bottom;
 }
